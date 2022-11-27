@@ -1,13 +1,13 @@
 :root {
     --main-text-color: rgb(192, 191, 191);
-    --background-color: rgb(56, 56, 56);
+    --background-color: rgb(200, 200, 200);
+    --button-color: rgb(73, 73, 73); 
 }
 
 body {
-    background-color: black;
+    background-color: var(--background-color);
     font-family: 'Roboto', sans-serif; 
     font-weight: bold;
-    max-width: 800px;
 }
 
 h1 {
@@ -17,6 +17,13 @@ h1 {
     color: var(--main-text-color)
 }
 h2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+p {
+    font-size: 15px;
+}
+.hero h2 {
     font-size: 15px;
     margin-bottom: 120px;
     font-weight: bold;
@@ -27,7 +34,8 @@ a {
     margin: 0 auto;
     text-align: center;
 }
-p {
+
+.hero p {
     color: rgb(226, 224, 224);
     font-size: 20px;
     padding: 20px 0px 0px 0px;
@@ -37,9 +45,17 @@ p {
     margin-bottom: 100px;
 }
 .hero {
-   
     text-align: center;
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/525/original/build-separate2.jpg?1669582998");
     background-position: center center;
     background-position: center
+}
+.project-description {
+    padding: 50px 30px;
+}
+@media (max-width: 960px) {
+    .project-description { 
+padding: 0;
+text-align: center;
+    }
 }
