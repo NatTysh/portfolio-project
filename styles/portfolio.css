@@ -1,6 +1,6 @@
 :root {
     --main-text-color: rgb(192, 191, 191);
-    --background-color: rgb(200, 200, 200);
+    --background-color: rgb(224, 222, 222);
     --button-color: rgb(73, 73, 73); 
 }
 
@@ -40,7 +40,7 @@ a {
     font-size: 20px;
     padding: 20px 0px 0px 0px;
 }
-.btn-light {
+.hero .btn-light {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 100px;
 }
@@ -50,10 +50,14 @@ a {
     background-position: center center;
     background-position: center
 }
+.btn-light {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .project-description {
     padding: 50px 30px;
 }
-@media (max-width: 960px) {
+@media (max-width: 576px) {
     .project-description { 
 padding: 0;
 text-align: center;
