@@ -34,11 +34,12 @@ p {
 }
 .btn-light {
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 100px;
 }
 .hero {
    
     text-align: center;
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/525/original/build-separate2.jpg?1669582998");
     background-position: center center;
-    background-size: 100% 100%;
+    background-position: center
 }
