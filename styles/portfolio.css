@@ -1,6 +1,6 @@
 :root {
-    --main-text-color: rgb(192, 191, 191);
-    --background-color: rgb(224, 222, 222);
+    --main-text-color: rgb(64, 64, 64);
+    --background-color: rgb(235, 234, 234);
 }
 
 body {
@@ -12,41 +12,43 @@ body {
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    color: var(--main-text-color)
+    color: black
 }
 h2 {
     font-weight: bold;
     font-size: 24px;
 }
+
 p {
     font-size: 15px;
     opacity: 70%;
 }
 .hero h2 {
     font-size: 15px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     font-weight: bold;
     color: black;
 }
 
 .hero p {
-    color: rgb(226, 224, 224);
     font-size: 20px;
     padding: 20px 0px 0px 0px;
 }
 .hero .btn-light {
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .hero {
     text-align: center;
-    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/525/original/build-separate2.jpg?1669582998");
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/536/original/rafael-de-nadai-b0eg-PYGICQ-unsplash.jpg?1669589599");
     background-position: center center;
     background-size: 100%;
 }
 .btn-light {
     font-family: 'Montserrat', sans-serif;
 }
+  
+
 
 .project-description {
     padding: 50px 30px;
@@ -58,8 +60,8 @@ p {
 
 @media (max-width: 900px) {
     .project-description { 
-padding: 0;
-text-align: center;
+        padding: 0;
+        text-align: center;
     }
     .hero {
         background-image: none;
