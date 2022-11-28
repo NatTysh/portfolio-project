@@ -63,4 +63,12 @@ p {
         background-image: none;
         background-color: var(--background-color);
     }
+
+    .hero h2 {
+        margin-bottom: 40px;
+    }
+    
+    .hero .btn-light {
+        margin-bottom: 40px;
+    }
 }
