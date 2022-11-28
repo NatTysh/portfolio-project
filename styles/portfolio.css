@@ -11,20 +11,20 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 38px;
     color: black
 }
 h2 {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 36px;
 }
 
 p {
-    font-size: 15px;
+    font-size: 18px;
     opacity: 70%;
 }
 .hero h2 {
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 100px;
     font-weight: bold;
     color: black;
@@ -32,7 +32,7 @@ p {
 
 .hero p {
     font-size: 20px;
-    padding: 20px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
 }
 .hero .btn-light {
     font-family: 'Montserrat', sans-serif;
@@ -49,14 +49,10 @@ p {
 }
   
 
-
 .project-description {
     padding: 50px 30px;
 }
 
-.description {
-    opacity: 100%;
-}
 
 @media (max-width: 900px) {
     .project-description { 
