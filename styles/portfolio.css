@@ -71,6 +71,11 @@ p {
     margin: 30px;
 }
 
+.project {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 @media (max-width: 900px) {
     .project-description { 
         padding: 0;
