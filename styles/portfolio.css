@@ -72,10 +72,13 @@ p {
 }
 
 
-
 .work {
     margin-left: 30px;
     margin-right: 30px;
+}
+
+.contact {
+    margin-top: 80px;
 }
 
 @media (max-width: 900px) {
